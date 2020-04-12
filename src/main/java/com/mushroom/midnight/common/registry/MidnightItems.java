@@ -16,6 +16,7 @@ import com.mushroom.midnight.common.item.tool.MidnightPickaxeItem;
 import com.mushroom.midnight.common.item.tool.MidnightShieldItem;
 import com.mushroom.midnight.common.item.tool.MidnightShovelItem;
 import com.mushroom.midnight.common.item.tool.RockShroomBucketItem;
+import com.mushroom.midnight.common.item.tool.ShroomSawItem;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
@@ -100,6 +101,8 @@ public class MidnightItems {
     public static final Item EBONITE_SWORD = Items.AIR;
     public static final Item NAGRILITE_SWORD = Items.AIR;
     public static final Item TENEBRUM_SWORD = Items.AIR;
+
+    public static final Item SHROOM_SAW = Items.AIR;
 
     public static final Item ROCKSHROOM_HELMET = Items.AIR;
     public static final Item ROCKSHROOM_CHESTPLATE = Items.AIR;
@@ -193,6 +196,7 @@ public class MidnightItems {
                 .add("ebonite_sword", props -> new SwordItem(MidnightItemTiers.EBONITE, 3, -2.4F, props))
                 .add("nagrilite_sword", props -> new SwordItem(MidnightItemTiers.NAGRILITE, 3, -2.4F, props))
                 .add("tenebrum_sword", props -> new SwordItem(MidnightItemTiers.TENEBRUM, 3, -2.4F, props))
+                .add("shroom_saw", props -> new ShroomSawItem(props.maxDamage(100)))
                 .add("rockshroom_helmet", props -> new ArmorItem(MidnightArmorMaterials.ROCKSHROOM, EquipmentSlotType.HEAD, props))
                 .add("rockshroom_chestplate", props -> new ArmorItem(MidnightArmorMaterials.ROCKSHROOM, EquipmentSlotType.CHEST, props))
                 .add("rockshroom_leggings", props -> new ArmorItem(MidnightArmorMaterials.ROCKSHROOM, EquipmentSlotType.LEGS, props))

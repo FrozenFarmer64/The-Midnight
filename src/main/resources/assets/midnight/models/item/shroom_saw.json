@@ -1,0 +1,42 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "midnight:items/shroom_saw"
+  },
+  "thirdperson_righthand": {
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "thirdperson_lefthand": {
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "firstperson_righthand": {
+    "scale": [
+      0.68,
+      0.68,
+      0.68
+    ]
+  },
+  "firstperson_lefthand": {
+    "scale": [
+      0.68,
+      0.68,
+      0.68
+    ]
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "working": 1
+      },
+      "model": "midnight:item/shroom_saw_work"
+    }
+  ]
+}
