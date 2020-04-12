@@ -1,6 +1,5 @@
 package com.mushroom.midnight.common.item.tool;
 
-import com.mushroom.midnight.common.registry.MidnightSounds;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.item.ArmorStandEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -12,6 +11,7 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.SoundEvents;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
@@ -34,8 +34,11 @@ public class ShroomSawItem extends Item {
                         p_220045_0_.sendBreakAnimation(EquipmentSlotType.MAINHAND);
                     });
                 }
-                livingEntity.playSound(MidnightSounds.BLADESHROOM_CAP_HIT, 0.8F, 1.0F + livingEntity.getRNG().nextFloat() * 0.1F);
             }
+        }
+
+        if (livingEntity.ticksExisted % 2 == 0) {
+            livingEntity.playSound(SoundEvents.BLOCK_WOODEN_BUTTON_CLICK_ON, 0.8F, 1.0F + livingEntity.getRNG().nextFloat() * 0.1F);
         }
     }
 
