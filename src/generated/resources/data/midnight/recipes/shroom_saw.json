@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "S| ",
+    " S|"
+  ],
+  "key": {
+    "#": {
+      "item": "midnight:bladeshroom_cap"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "|": {
+      "tag": "midnight:sticks"
+    }
+  },
+  "result": {
+    "item": "midnight:shroom_saw"
+  }
+}
