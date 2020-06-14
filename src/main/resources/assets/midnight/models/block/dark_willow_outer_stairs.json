@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "midnight:blocks/dark_willow_planks",
-    "top": "midnight:blocks/dark_willow_planks",
-    "side": "midnight:blocks/dark_willow_planks"
-  }
-}

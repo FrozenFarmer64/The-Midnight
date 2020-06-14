@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab_top",
-    "textures": {
-        "bottom": "midnight:blocks/shadowroot_planks",
-        "top": "midnight:blocks/shadowroot_planks",
-        "side": "midnight:blocks/shadowroot_planks"
-    }
-}

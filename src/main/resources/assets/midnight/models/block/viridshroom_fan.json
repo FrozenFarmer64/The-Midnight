@@ -1,6 +1,0 @@
-{
-  "parent": "midnight:block/fan",
-  "textures": {
-    "fan": "midnight:blocks/viridshroom_shelf"
-  }
-}

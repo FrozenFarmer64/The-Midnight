@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "powered=false": { "model": "midnight:block/trenchstone_pressure_plate" },
-        "powered=true": { "model": "midnight:block/trenchstone_pressure_plate_down" }
-    }
-}

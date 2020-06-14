@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "type=bottom": { "model": "midnight:block/viridshroom_slab" },
-        "type=top": { "model": "midnight:block/viridshroom_slab_top" },
-        "type=double": { "model": "midnight:block/viridshroom_planks" }
-    }
-}

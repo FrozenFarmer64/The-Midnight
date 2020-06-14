@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "midnight:blocks/nightstone",
-    "top": "midnight:blocks/nightstone",
-    "side": "midnight:blocks/nightstone"
-  }
-}

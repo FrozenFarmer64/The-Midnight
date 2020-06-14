@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "type=bottom": { "model": "midnight:block/rockshroom_brick_slab" },
-        "type=top": { "model": "midnight:block/rockshroom_brick_slab_top" },
-        "type=double": { "model": "midnight:block/rockshroom_bricks" }
-    }
-}

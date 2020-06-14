@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "midnight:blocks/nightshroom_planks",
-    "top": "midnight:blocks/nightshroom_planks",
-    "side": "midnight:blocks/nightshroom_planks"
-  }
-}

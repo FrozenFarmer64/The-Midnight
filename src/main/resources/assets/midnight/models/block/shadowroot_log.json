@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_column",
-  "textures": {
-    "end": "midnight:blocks/shadowroot_log_top",
-    "side": "midnight:blocks/shadowroot_log"
-  }
-}

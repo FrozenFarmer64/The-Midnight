@@ -1,6 +1,0 @@
-{
-  "parent": "block/leaves",
-  "textures": {
-    "all": "midnight:blocks/shadowroot_leaves"
-  }
-}

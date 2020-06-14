@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "midnight:blocks/glowing_malignant_blue_plant_block"
-  }
-}

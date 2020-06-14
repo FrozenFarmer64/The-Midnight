@@ -1,6 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "midnight:blocks/ghost_plant"
-  }
-}
