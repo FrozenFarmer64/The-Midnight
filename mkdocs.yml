@@ -1,2 +1,3 @@
-side_dir: '/home/docs/checkouts/readthedocs.org/user_builds/the-midnight/builds/latest/'
-docs_dir: '/home/docs/checkouts/readthedocs.org/user_builds/the-midnight/checkouts/latest/'
+site_name: The Midnight Wiki
+side_dir: '/builds/latest/'
+docs_dir: '/checkouts/latest/'
